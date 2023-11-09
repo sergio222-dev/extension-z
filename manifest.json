@@ -1,0 +1,14 @@
+{
+  "name": "unsplash",
+  "description": "",
+  "version": 1,
+  "manifest_version": 1,
+  "minimum_chrome_version": "116",
+  "permissions": ["tabs"],
+  "action": {
+    "default_icon": "icon/recording.png"
+  },
+  "background": {
+    "service_worker": "service.js"
+  }
+}
